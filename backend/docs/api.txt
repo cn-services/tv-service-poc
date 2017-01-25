@@ -1,0 +1,22 @@
+EPG services
+
+  * Channels
+    - Retrieve all channels
+        <serverIP>:<port>/channels
+    - Retrieve a single channel by id
+        <serverIP>:<port>/channels/<channelId>
+
+  *Programs
+    - Retrieve all programs
+        <serverIP>:<port>/programs
+    - Retrieve a single program by id
+        <serverIP>:<port>/programs/<programId>
+    - Retrieve programs according to startTime, endTime, page and perPage
+        <serverIP>:<port>/programs?startTime=<number>&endTime=<number>&page=<number>&perPage=<number>
+
+        If any parameter is not set, the default used will be.
+          startTime = current time.
+          endTime   = current time plus five hours.
+          page      = First page, page zero.
+          perPage   = Ten programs per page
+        The response header will contain a Link field containing the lisks to the first page, the previous page and the next page.
