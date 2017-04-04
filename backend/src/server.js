@@ -28,7 +28,6 @@ console.log(' ');
  */
 console.log('Configuring Express');
 server.set('port', config.server.port || 3000);
-server.use(express.favicon('public/arrisFavicon.ico'));
 server.use(express.logger('dev'));
 server.use(express.methodOverride());
 server.use(server.router);
@@ -50,6 +49,6 @@ console.log(' ');
 console.log('Starting web server');
 var port = server.get('port');
 http.createServer(server).listen(port, function(){
-  console.log('Arris TV server listening on port %d in %s mode.', port, server.get('env'));
+  console.log('TV server listening on port %d in %s mode.', port, server.get('env'));
   console.log('Waiting for incoming connections');
 });

@@ -1,6 +1,6 @@
 
 
-# MongoDB Mock Data - Arris TV Backend
+# MongoDB Mock Data - TV Backend
 
 
 ## Usage
@@ -12,10 +12,10 @@
   Step 2) Start the server by runng the command. Edit mongodbConfig.conf to change MongoDB server configuration.
 			mongod --config config/mongodbConfig.conf
 			
-  Step 3) On other console, generate the mock data for Arris TV database (arrisTvDatabase) by running the script
+  Step 3) On other console, generate the mock data for  TV database (TvDatabase) by running the script
 			generateTestData.bat
-		  In the case you want to delete all data in the Arris TV (arrisTvDatabase)
-			mongo dropArrisTvDb.js
+		  In the case you want to delete all data in the  TV (TvDatabase)
+			mongo dropTvDb.js
 			
   Step 4) Install dependencies.
 			npm install

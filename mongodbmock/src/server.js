@@ -17,7 +17,6 @@ var server = express();
  */
 console.log('Configuring Express');
 server.set('port', 7000);
-server.use(express.favicon('public/arrisFavicon.ico'));
 server.use(express.logger('dev'));
 server.use(express.methodOverride());
 server.use(server.router);
@@ -31,6 +30,6 @@ console.log(' ');
 console.log('Starting server');
 var port = server.get('port');
 http.createServer(server).listen(port, function(){
-  console.log('MongoDB Mock data server for Arris TV backend server listening on port %d.', port);
+  console.log('MongoDB Mock data server for TV backend server listening on port %d.', port);
   console.log('Waiting for incoming connections');
 });

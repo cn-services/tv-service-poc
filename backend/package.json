@@ -1,6 +1,6 @@
 {
-  "name": "arris-tv-backend",
-  "description": "Arris Tv Service Backend",
+  "name": "tv-backend",
+  "description": " Tv Service Backend",
   "version": "0.1.0",
   "private": true,
   "scripts": {

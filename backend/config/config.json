@@ -4,7 +4,7 @@
       "port": 9999
     },
     "db": {
-      "mongodb": "mongodb://localhost:27017/arrisTvDatabase",
+      "mongodb": "mongodb://localhost:27017/tvDatabase",
 	  "imagesServer": "localhost:7000"
     }
   },
@@ -13,7 +13,7 @@
       "port": 4000
     },
     "db": {
-      "mongodb": "mongodb://localhost:27017/arrisTvDatabase",
+      "mongodb": "mongodb://localhost:27017/tvDatabase",
 	  "imagesServer": "localhost:7000"
     }
   }

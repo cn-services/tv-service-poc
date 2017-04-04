@@ -1,13 +1,13 @@
 /* global Mongo */
 
 print();
-print('Dropping Arris TV database (arrisTvDatabase)');
+print('Dropping  TV database (tvDatabase)');
 print();
 
 var initialDate = new Date();
 
 var connection = new Mongo('localhost:27017');
-var db = db.getSiblingDB('arrisTvDatabase');
+var db = db.getSiblingDB('tvDatabase');
 db.dropDatabase();
 
 var endDate = new Date();

@@ -1,6 +1,6 @@
 {
-  "name": "arris-tv-backend-mock-data",
-  "description": "Arris Tv Service Backend - Mock Data",
+  "name": "tv-backend-mock-data",
+  "description": "Tv Service Backend - Mock Data",
   "version": "0.0.1",
   "private": true,
   "scripts": {

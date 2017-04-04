@@ -1,7 +1,7 @@
 /* global Mongo */
 
 var connection = new Mongo('localhost:27017');
-var db = db.getSiblingDB('arrisTvDatabase');
+var db = db.getSiblingDB('tvDatabase');
 
 var channelsPackage;
 var channelsPackageName;
